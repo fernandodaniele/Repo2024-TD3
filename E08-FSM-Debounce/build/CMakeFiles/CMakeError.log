@@ -1,0 +1,387 @@
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_bb014.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb014.dir\Debug\\" /Fd"cmTC_bb014.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_bb014.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_55e3f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55e3f.dir\Debug\\" /Fd"cmTC_55e3f.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_55e3f.vcxproj]
+
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_10345.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10345.dir\Debug\\" /Fd"cmTC_10345.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_10345.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_5fa02.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5fa02.dir\Debug\\" /Fd"cmTC_5fa02.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_5fa02.vcxproj]
+
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_11a6f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11a6f.dir\Debug\\" /Fd"cmTC_11a6f.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_11a6f.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_de74b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de74b.dir\Debug\\" /Fd"cmTC_de74b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_de74b.vcxproj]
+
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_06542.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06542.dir\Debug\\" /Fd"cmTC_06542.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_06542.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_99475.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_99475.dir\Debug\\" /Fd"cmTC_99475.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_99475.vcxproj]
+
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_c3a78.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3a78.dir\Debug\\" /Fd"cmTC_c3a78.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_c3a78.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_5d4b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d4b5.dir\Debug\\" /Fd"cmTC_5d4b5.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_5d4b5.vcxproj]
+
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_2b18c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b18c.dir\Debug\\" /Fd"cmTC_2b18c.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_2b18c.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_941ad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_941ad.dir\Debug\\" /Fd"cmTC_941ad.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_941ad.vcxproj]
+
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_8c52e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c52e.dir\Debug\\" /Fd"cmTC_8c52e.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_8c52e.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_14eb1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_14eb1.dir\Debug\\" /Fd"cmTC_14eb1.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_14eb1.vcxproj]
+
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_40590.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40590.dir\Debug\\" /Fd"cmTC_40590.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_40590.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_c2ea0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2ea0.dir\Debug\\" /Fd"cmTC_c2ea0.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_c2ea0.vcxproj]
+
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_e909e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e909e.dir\Debug\\" /Fd"cmTC_e909e.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_e909e.vcxproj]
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/repositorios/Ejercicios2021-TD3-Resueltos/Ej6-AntirreboteMEF/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_2f2fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.8.3+39993bd9d para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29337 para x64
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  cl /c /W1 /WX- /diagnostics:column /O2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f2fe.dir\Debug\\" /Fd"cmTC_2f2fe.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue  -mlongcalls -Wno-frame-address "D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+cl : línea de comandos error D8021: argumento numérico no válido '/Wno-frame-address' [D:\repositorios\Ejercicios2021-TD3-Resueltos\Ej6-AntirreboteMEF\build\CMakeFiles\CMakeTmp\cmTC_2f2fe.vcxproj]
+
+
+
