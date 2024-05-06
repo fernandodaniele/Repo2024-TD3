@@ -19,8 +19,8 @@
 #define PULSADOR    GPIO_NUM_18
 #define SALIDA1     GPIO_NUM_25
 #define SALIDA2     GPIO_NUM_26
-#define DELAY_US  1
-#define DELAY_MS  10/portTICK_PERIOD_MS
+#define DELAY_US  100
+#define DELAY_MS  100/portTICK_PERIOD_MS
 
 //-------------------- Prototipos -------------
 void TaskA( void * pvParameters ); //Prototipo de la tarea
@@ -40,7 +40,7 @@ void app_main()
 
     xTaskCreatePinnedToCore( TaskA,             //Función que implementa la tarea. La misma no debe retornar.
                  "Tarea A",          //Nombre que reprenta la tarea, para facilitar la depuración.
-                 configMINIMAL_STACK_SIZE,  //Tamaño del stack en bytes
+                 configMINIMAL_STACK_SIZE*2,  //Tamaño del stack en bytes
                  NULL,                      //Puntero que se utilizará como parámetro para la tarea que se está creando. Como no lo usamos ponemos NULL
                  tskIDLE_PRIORITY+3,          //Prioridad de la tarea
                  &xHandleA,                  //Puntero a la tarea
@@ -50,7 +50,7 @@ void app_main()
 
     xTaskCreatePinnedToCore( TaskB,             //Función que implementa la tarea. La misma no debe retornar.
                  "Tarea B",          //Nombre que reprenta la tarea, para facilitar la depuración.
-                 configMINIMAL_STACK_SIZE,  //Tamaño del stack en bytes
+                 configMINIMAL_STACK_SIZE*2,  //Tamaño del stack en bytes
                  NULL,                      //Puntero que se utilizará como parámetro para la tarea que se está creando. Como no lo usamos ponemos NULL
                  tskIDLE_PRIORITY+2,          //Prioridad de la tarea
                  &xHandleB ,                 //Puntero a la tarea
@@ -60,7 +60,7 @@ void app_main()
 
     xTaskCreatePinnedToCore( TaskMonitor,             //Función que implementa la tarea. La misma no debe retornar.
                  "Tarea monitoreo",          //Nombre que reprenta la tarea, para facilitar la depuración.
-                 configMINIMAL_STACK_SIZE,  //Tamaño del stack en bytes
+                 configMINIMAL_STACK_SIZE*3,  //Tamaño del stack en bytes
                  NULL,                      //Puntero que se utilizará como parámetro para la tarea que se está creando. Como no lo usamos ponemos NULL
                  tskIDLE_PRIORITY+1,          //Prioridad de la tarea
                  &xHandleMonitor ,                 //Puntero a la tarea
