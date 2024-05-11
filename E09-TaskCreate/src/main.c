@@ -2,8 +2,8 @@
  * @file main.c
  * @author your name (you@domain.com)
  * @brief 
- * @version 0.1
- * @date 2023-05-22
+ * @version 0.2
+ * @date 2024-05-11
  * 
  * @copyright Copyright (c) 2023
  * 
@@ -22,6 +22,8 @@
 #define DELAY_US  100
 #define DELAY_MS  100/portTICK_PERIOD_MS
 
+#define APARTADO 'e'
+
 //-------------------- Prototipos -------------
 void TaskA( void * pvParameters ); //Prototipo de la tarea
 void TaskB( void * pvParameters ); //Prototipo de la tarea
@@ -32,6 +34,235 @@ TaskHandle_t xHandleA = NULL;           //Puntero a la tarea
 TaskHandle_t xHandleB = NULL;
 TaskHandle_t xHandleMonitor = NULL;
 
+
+#if APARTADO == 'a' 
+void app_main() 
+{
+    xTaskCreatePinnedToCore( TaskA,             //Función que implementa la tarea. La misma no debe retornar.
+                 "Tarea A",          //Nombre que reprenta la tarea, para facilitar la depuración.
+                 configMINIMAL_STACK_SIZE*2,  //Tamaño del stack en bytes
+                 NULL,                      //Puntero que se utilizará como parámetro para la tarea que se está creando. Como no lo usamos ponemos NULL
+                 tskIDLE_PRIORITY+1,          //Prioridad de la tarea
+                 &xHandleA,                  //Puntero a la tarea
+                 0                          //Procesador donde se ejecuta
+                );
+    configASSERT( xHandleA );                //entra si no se pudieron crear las tareas, para debug
+
+    xTaskCreatePinnedToCore( TaskB,             //Función que implementa la tarea. La misma no debe retornar.
+                 "Tarea B",          //Nombre que reprenta la tarea, para facilitar la depuración.
+                 configMINIMAL_STACK_SIZE*2,  //Tamaño del stack en bytes
+                 NULL,                      //Puntero que se utilizará como parámetro para la tarea que se está creando. Como no lo usamos ponemos NULL
+                 tskIDLE_PRIORITY+1,          //Prioridad de la tarea
+                 &xHandleB ,                 //Puntero a la tarea
+                 0
+                );
+    configASSERT( xHandleB );                //entra si no se pudieron crear las tareas, para debug
+}
+
+//-------------------- Tareas -------------
+void TaskA( void * pvParameters )
+{
+    gpio_set_direction(SALIDA1, GPIO_MODE_OUTPUT);
+
+    while (1)
+    {
+        gpio_set_level(SALIDA1, 1);
+        ets_delay_us(DELAY_US);    //delay en microsegundos que bloquea al procesador
+        gpio_set_level(SALIDA1, 0);
+        ets_delay_us(DELAY_US);
+    }
+}
+
+void TaskB( void * pvParameters )
+{
+    gpio_set_direction(SALIDA2, GPIO_MODE_OUTPUT);
+
+    while (1)
+    {
+        gpio_set_level(SALIDA2, 1);
+        ets_delay_us(DELAY_US);    //delay en microsegundos que bloquea al procesador
+        gpio_set_level(SALIDA2, 0);
+        ets_delay_us(DELAY_US);
+    }
+}
+
+#elif APARTADO == 'b'
+void app_main() 
+{
+    xTaskCreatePinnedToCore( TaskA,             //Función que implementa la tarea. La misma no debe retornar.
+                 "Tarea A",          //Nombre que reprenta la tarea, para facilitar la depuración.
+                 configMINIMAL_STACK_SIZE*2,  //Tamaño del stack en bytes
+                 NULL,                      //Puntero que se utilizará como parámetro para la tarea que se está creando. Como no lo usamos ponemos NULL
+                 tskIDLE_PRIORITY+1,          //Prioridad de la tarea
+                 &xHandleA,                  //Puntero a la tarea
+                 0                          //Procesador donde se ejecuta
+                );
+    configASSERT( xHandleA );                //entra si no se pudieron crear las tareas, para debug
+
+    xTaskCreatePinnedToCore( TaskB,             //Función que implementa la tarea. La misma no debe retornar.
+                 "Tarea B",          //Nombre que reprenta la tarea, para facilitar la depuración.
+                 configMINIMAL_STACK_SIZE*2,  //Tamaño del stack en bytes
+                 NULL,                      //Puntero que se utilizará como parámetro para la tarea que se está creando. Como no lo usamos ponemos NULL
+                 tskIDLE_PRIORITY+2,          //Prioridad de la tarea
+                 &xHandleB ,                 //Puntero a la tarea
+                 0
+                );
+    configASSERT( xHandleB );                //entra si no se pudieron crear las tareas, para debug
+}
+
+//-------------------- Tareas -------------
+void TaskA( void * pvParameters )
+{
+    gpio_set_direction(SALIDA1, GPIO_MODE_OUTPUT);
+
+    while (1)
+    {
+        gpio_set_level(SALIDA1, 1);
+        ets_delay_us(DELAY_US);    //delay en microsegundos que bloquea al procesador
+        gpio_set_level(SALIDA1, 0);
+        ets_delay_us(DELAY_US);
+    }
+}
+
+void TaskB( void * pvParameters )
+{
+    gpio_set_direction(SALIDA2, GPIO_MODE_OUTPUT);
+
+    while (1)
+    {
+        gpio_set_level(SALIDA2, 1);
+        ets_delay_us(DELAY_US);    //delay en microsegundos que bloquea al procesador
+        gpio_set_level(SALIDA2, 0);
+        ets_delay_us(DELAY_US);
+    }
+}
+
+#elif APARTADO == 'c'
+void app_main() 
+{
+    xTaskCreatePinnedToCore( TaskA,             //Función que implementa la tarea. La misma no debe retornar.
+                 "Tarea A",          //Nombre que reprenta la tarea, para facilitar la depuración.
+                 configMINIMAL_STACK_SIZE*2,  //Tamaño del stack en bytes
+                 NULL,                      //Puntero que se utilizará como parámetro para la tarea que se está creando. Como no lo usamos ponemos NULL
+                 tskIDLE_PRIORITY+2,          //Prioridad de la tarea
+                 &xHandleA,                  //Puntero a la tarea
+                 0                          //Procesador donde se ejecuta
+                );
+    configASSERT( xHandleA );                //entra si no se pudieron crear las tareas, para debug
+
+    xTaskCreatePinnedToCore( TaskB,             //Función que implementa la tarea. La misma no debe retornar.
+                 "Tarea B",          //Nombre que reprenta la tarea, para facilitar la depuración.
+                 configMINIMAL_STACK_SIZE*2,  //Tamaño del stack en bytes
+                 NULL,                      //Puntero que se utilizará como parámetro para la tarea que se está creando. Como no lo usamos ponemos NULL
+                 tskIDLE_PRIORITY+2,          //Prioridad de la tarea
+                 &xHandleB ,                 //Puntero a la tarea
+                 0
+                );
+    configASSERT( xHandleB );                //entra si no se pudieron crear las tareas, para debug
+}
+
+//-------------------- Tareas -------------
+void TaskA( void * pvParameters )
+{
+    gpio_set_direction(SALIDA1, GPIO_MODE_OUTPUT);
+
+    while (1)
+    {
+        gpio_set_level(SALIDA1, 1);
+        vTaskDelay(DELAY_MS);
+        gpio_set_level(SALIDA1, 0);
+        vTaskDelay(DELAY_MS);
+    }
+}
+
+void TaskB( void * pvParameters )
+{
+    gpio_set_direction(SALIDA2, GPIO_MODE_OUTPUT);
+
+    while (1)
+    {
+        gpio_set_level(SALIDA2, 1);
+        vTaskDelay(DELAY_MS);
+        gpio_set_level(SALIDA2, 0);
+        vTaskDelay(DELAY_MS);
+    }
+}
+#elif APARTADO == 'd'
+void app_main() 
+{
+    UBaseType_t prioridad = uxTaskPriorityGet (NULL);   //para obtener la prioridad de la tarea principal
+    printf("La prioridad de la tarea app_main es %d\n",prioridad);   //debería ser 1
+
+    xTaskCreatePinnedToCore( TaskA,             //Función que implementa la tarea. La misma no debe retornar.
+                 "Tarea A",          //Nombre que reprenta la tarea, para facilitar la depuración.
+                 configMINIMAL_STACK_SIZE,  //Tamaño del stack en bytes
+                 NULL,                      //Puntero que se utilizará como parámetro para la tarea que se está creando. Como no lo usamos ponemos NULL
+                 tskIDLE_PRIORITY+1,          //Prioridad de la tarea
+                 &xHandleA,                  //Puntero a la tarea
+                 0                          //Procesador donde se ejecuta
+                );
+    configASSERT( xHandleA );                //entra si no se pudieron crear las tareas, para debug
+
+    xTaskCreatePinnedToCore( TaskB,             //Función que implementa la tarea. La misma no debe retornar.
+                 "Tarea B",          //Nombre que reprenta la tarea, para facilitar la depuración.
+                 configMINIMAL_STACK_SIZE,  //Tamaño del stack en bytes
+                 NULL,                      //Puntero que se utilizará como parámetro para la tarea que se está creando. Como no lo usamos ponemos NULL
+                 tskIDLE_PRIORITY+2,          //Prioridad de la tarea
+                 &xHandleB ,                 //Puntero a la tarea
+                 0
+                );
+    configASSERT( xHandleB );                //entra si no se pudieron crear las tareas, para debug
+
+    xTaskCreatePinnedToCore( TaskMonitor,             //Función que implementa la tarea. La misma no debe retornar.
+                 "Tarea monitoreo",          //Nombre que reprenta la tarea, para facilitar la depuración.
+                 configMINIMAL_STACK_SIZE*3,  //Tamaño del stack en bytes
+                 NULL,                      //Puntero que se utilizará como parámetro para la tarea que se está creando. Como no lo usamos ponemos NULL
+                 tskIDLE_PRIORITY+1,          //Prioridad de la tarea
+                 &xHandleMonitor ,                 //Puntero a la tarea
+                 1
+                );
+    configASSERT( xHandleMonitor );                //entra si no se pudieron crear las tareas, para debug
+}
+
+//-------------------- Tareas -------------
+void TaskA( void * pvParameters )
+{
+    gpio_set_direction(SALIDA1, GPIO_MODE_OUTPUT);
+    while (1)
+    {
+        gpio_set_level(SALIDA1, 1);
+        vTaskDelay(DELAY_MS*10);
+        gpio_set_level(SALIDA1, 0);
+        vTaskDelay(DELAY_MS*10);
+    }
+}
+
+void TaskB( void * pvParameters )
+{
+    gpio_set_direction(SALIDA2, GPIO_MODE_OUTPUT);
+
+    while (1)
+    {
+        gpio_set_level(SALIDA2, 1);
+        vTaskDelay(DELAY_MS*10);
+        gpio_set_level(SALIDA2, 0);
+        vTaskDelay(DELAY_MS*10);
+    }
+}
+
+void TaskMonitor( void * pvParameters )
+{
+    while(true)
+    {
+        //Muestra el espacio mínimo libre de stack que ha habido desde que comenzó la tarea.
+        //Cuanto menor sea el número devuelto, más cerca está la tarea de desbordar su stack.
+        printf( "Task %u min %u bytes\r\n", 2,  uxTaskGetStackHighWaterMark( xHandleB));
+        printf( "Task %u min %u bytes\r\n", 1,  uxTaskGetStackHighWaterMark( xHandleA));
+        vTaskDelay(DELAY_MS*10);
+    }
+}
+
+#elif APARTADO == 'e'
 //-------------------- main -------------
 void app_main() 
 {
@@ -87,10 +318,8 @@ void TaskA( void * pvParameters )
             }
         }
         gpio_set_level(SALIDA1, 1);
-        //ets_delay_us(DELAY_US);    //delay en microsegundos que bloquea al procesador
         vTaskDelay(DELAY_MS);
         gpio_set_level(SALIDA1, 0);
-        //ets_delay_us(DELAY_US);
         vTaskDelay(DELAY_MS);
     }
 }
@@ -102,10 +331,8 @@ void TaskB( void * pvParameters )
     while (1)
     {
         gpio_set_level(SALIDA2, 1);
-        //ets_delay_us(DELAY_US);    //delay en microsegundos que bloquea al procesador
         vTaskDelay(DELAY_MS);
         gpio_set_level(SALIDA2, 0);
-        //ets_delay_us(DELAY_US);
         vTaskDelay(DELAY_MS);
     }
 }
@@ -121,3 +348,5 @@ void TaskMonitor( void * pvParameters )
         vTaskDelay(DELAY_MS);
     }
 }
+
+#endif
